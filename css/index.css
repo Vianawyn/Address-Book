@@ -1,0 +1,109 @@
+@import url("base.css");
+/* 头部 */
+body{
+	/* height: 30rem; */
+	background: #f3f1f1;
+}
+header{
+	width: 100%;
+	height: 1rem;
+	background: #f32d2d;
+	position: fixed;
+	z-index: 99;
+}
+#head{
+	width: 100%;
+	height: 1rem;
+}
+.sousuo-box{
+	width: 80%;
+	height: 0.66rem;
+	display: flex;
+	top: 0.2rem;
+	left: 10%;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.search-box{
+	width: 100%;
+	height: 0.66rem;
+	background: #fee9e9;
+	border: none;
+	border-radius: 0.09rem;
+	text-align: center;
+	font-size: 0.4rem;
+}
+.search-box:focus{
+	outline: 0;
+}
+.fangdajing{
+	display: block;
+	width: 0.5rem;
+	height: 0.5rem;
+	position: absolute;
+	top: 0.1rem;
+	right: 0.2rem;
+}
+.fangdajing:focus{
+	outline: 0;
+}
+.fangdajing img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+/* 头部结束 */
+.tip{
+	position: fixed;
+	top: 1rem;
+	background: #f3f1f1;
+
+}
+dl{
+	width: 100%;
+	background: #f3f1f1;
+	padding-top: 1rem;
+}
+dt,.tip{
+	width: 100%;
+	height: 0.6rem;
+	padding-left: 0.2rem;
+	box-sizing: border-box;
+	font-size: 0.4rem;
+	color: #968f8f;
+	line-height: 0.6rem;
+}
+dd{
+	width: 100%;
+	height: 1rem;
+	background: #fff;
+	border-bottom: 1px solid #ccc;
+	padding-left: 0.2rem;
+	box-sizing: border-box;
+}
+dd a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 0.4rem;
+	line-height: 1rem;
+	color: #000;
+}
+/* 侧边栏 */
+.slide{
+	width: 0.5rem;
+	height: auto;
+	background: #fff;
+	position: fixed;
+	top: 50%;
+	right: 0rem;
+	transform: translateY(-50%);
+}
+.slide li{
+	width: 100%;
+	text-align: center;
+	font-size: 0.3rem;
+	color: #ccc;
+}
